@@ -115,10 +115,14 @@ a{
 display: flex;
 }
 .nav-list ul li,.social-icon ul li{
-   padding: 30px;
+   margin: 0px 30px;
    color:#55527C ;
    font-size:18px;
    cursor: pointer;
+}
+.nav-list ul li,.social-icon ul li a{
+   margin: 0px 30px;
+
 }
 .social-icon ul li:hover{
     transform: scale(1.4);
