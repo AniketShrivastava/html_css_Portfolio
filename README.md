@@ -1,3 +1,3 @@
 # html_css_Portfolio
 
-singular-torte-c04924.netlify.app
+https://singular-torte-c04924.netlify.app/
