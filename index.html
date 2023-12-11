@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
 
 </head>
 
@@ -37,6 +39,9 @@
             </ul>
         </div>
     </nav>
+        <div class="toggle-btn">
+            <i class="fa fa-bars"></i>
+        </div>
     <header class="header container">
         <div class="circle"></div>
         <div class="row hero">
@@ -215,7 +220,7 @@
         <div class="container">
             <h3>CONTACT ME</h3>
             <h1>Got A Project! Let'S TalK</h1>
-            <h3><i class="fa fa-envelope-o"></i>hello@website.com</h3>
+            <h3><i class="fa fa-envelope-o"></i> hello@website.com</h3>
             <div class="quick-links">
                 <div class="brands">
                     <img src="./img//logo.png" alt="">
@@ -229,8 +234,19 @@
                 </ul>
             </div>
         </div>
-      h3
+      
     </section>
+    <div class="copyright container">
+        <p>@ 2020 ANIKET SHRIVASTAVA | Subscribe on Youtube</p>
+    </div>
+
+    <script>
+        let togglebtn = document.querySelector(".toggle-btn")
+        let navbar = document.querySelector('.navbar')
+        togglebtn.addEventListener('click',()=>{
+            navbar.classList.toggle('mobile-nav')
+        })
+    </script>
 </body>
 
 </html>
